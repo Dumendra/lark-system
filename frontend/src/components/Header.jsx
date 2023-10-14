@@ -1,13 +1,14 @@
 import { Navbar, Nav, Container } from "react-bootstrap";
 import { FaShoppingCart, FaUser } from "react-icons/fa";
-
+import logo from "../assets/logo.png";
 
 const Header = () => {
   return (
     <header>
       <Navbar bg="dark" variant="dark" expand="lg" collapseOnSelect>
         <Container>
-          <Navbar.Brand>Lark-system</Navbar.Brand>
+          <Navbar.Brand>
+          <img src={logo} alt="Lark-System" />  Lark-system</Navbar.Brand>
 
           <Navbar.Toggle arial-controls="basic-navbar-nav"></Navbar.Toggle>
           <Navbar.Collapse id="basic-navbar-nav">
