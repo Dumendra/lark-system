@@ -31,8 +31,6 @@ const ProductScreen = () => {
           <ListGroupItem><b>Description : </b> {product.description}</ListGroupItem>
         </ListGroup>
       </Col>
-
-
       <Col md={3}>
         <Card>
           <ListGroup variant="flush">
