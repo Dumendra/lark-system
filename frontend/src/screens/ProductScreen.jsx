@@ -1,6 +1,5 @@
 import { useParams } from "react-router-dom";
 import { Link } from "react-router-dom";
-
 import Rating from "../components/Rating";
 import { Row, Image, ListGroup, Card, Button, Col, ListGroupItem } from 'react-bootstrap'
 import axios from "axios";
